@@ -114,3 +114,45 @@ git config --global alias.henka checkout
 
 alias fubbick=git
 ```
+
+### Om du inte är skåning men hamnar på en skånsk arbetsplats
+
+Kopiera följande till konsolen i din webbläsare.
+
+```js
+const map = new Map([
+  ['init', 'jubba'],
+  ['clone', 'abekatta'],
+  ['pull', 'asa'],
+  ['push', 'prega'],
+  ['fetch', 'pela'],
+  ['branch', 'spåga'],
+  ['add', 'åsso'],
+  ['commit', 'hutta'],
+  ['rebase', 'nimma'],
+  ['merge', 'klydda'],
+  ['stash', 'tocka'],
+  ['cherry-pick', 'pela päror'],
+  ['blame', 'gaffla'],
+  ['checkout', 'henka'],
+  ['git','fubbick'],
+  ['repository','hodda'],
+  ['branch','spåga'],
+  ['commit','drös'],
+  ['pull request', 'jidder'],
+  ['stash','tocka'],
+  ['head','hue'],
+  ['remote','ude'],
+  ['origin','himma'],
+  ['master','kagehus'],
+  ['dev','glytt']
+])
+
+function translate (text) {
+  return [...map.entries()].reduce((o, [from, to]) => o.replace(new RegExp(from, 'g'), to), text)
+}
+```
+
+Sedan kan du skriva till exempel `translate('git pull origin master --rebase --autostash')`.
+
+Självklart borde du bara lära dig att det heter `fubbick asa himma kagehus --nimma --autotocka`, men du kan ju få lite hjälp på vägen dit. Skåningar är trots allt ganska givmilda och trevliga.
