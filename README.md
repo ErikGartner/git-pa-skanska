@@ -31,6 +31,8 @@ oss.
 | cherry-pick | cherry-picka   | pela päror    |
 | blame       | blamea         | gaffla        |
 | checkout    | checka ut      | henka         |
+| ammend      | ammenda        | mecka         |
+| squash      | squasha        | pannkaga      |
 
 | Substantiv   | Nuvarande bruk | Förslag     |
 |--------------|----------------|-------------|
@@ -45,6 +47,10 @@ oss.
 | origin       | origin         | himma       |
 | master       | mastern        | kagehus     |
 | dev          | deven          | glytt       |
+
+| Attribut   | Nuvarande bruk | Förslag   |
+|------------|----------------|-----------|
+| force      | force          | mans-     |
 
 
 ## Exempel
@@ -62,6 +68,8 @@ oss.
     - Jag har en drös på glytt, kan jag klydda in det i kagehuset och sedan prega himm det?
 
     - Nils! Du kan inte hutta och prega innan du har asat himm från kagehuset! Nu har pågarna fått en rälig klyddkonflikt!
+    
+    - Jag brukar alltid hutta till en pågåendejubb-drös som jag meckar innan jag mans-pregar upp det till en spåga. Sen tycker jag att man kan asa nimma innan man pannkageklyddar spågan
 
 ## Exempel kommandon
 
