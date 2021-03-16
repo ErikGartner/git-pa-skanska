@@ -32,6 +32,7 @@ oss.
 | blame       | blamea         | gaffla        |
 | checkout    | checka ut      | henka         |
 | log	      | logga          | härförleden   |
+| revert      | reverta        | sluuda        |
 
 | Substantiv   | Nuvarande bruk | Förslag     |
 |--------------|----------------|-------------|
